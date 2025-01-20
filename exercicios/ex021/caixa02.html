@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <tittle>grouping tag</tittle>
+    <style>
+        body{ 
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: aquamarine;
+        }
+        header{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        nav{
+            background-color: rgb(55, 240, 178);
+            padding: 3px;
+            box-shadow: 5px 2px 7px rgba(0, 0, 0, 0.589);
+        }
+        nav > a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 30px;
+        }
+        nav > a:houver {
+            text-decoration: underline;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            border-radius: 20px;
+        }
+        article{
+            background-color: rgb(182, 238, 219);
+        }
+        article > aside{
+            background-color: rgb(144, 245, 211);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 1px;
+            margin: 0px;
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+        </nav>
+    </header>
+    <main>
+        <section id="assuntos">
+
+        </section>
+        <section id="notícias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut repudiandae libero debitis? Nemo eius quia illo ex pariatur error architecto dolor deserunt cum tenetur vitae rem, obcaecati, suscipit reprehenderit deleniti!</p>
+                <aside>
+                    <p> Artigo escrito por Rafael Aguiar</p>
+                </aside>
+            </article>
+        </section>
+
+    </main>
+    <footer>
+        <p>Desevolvido por mim</p>
+    </footer>
+</body>
+</html>
