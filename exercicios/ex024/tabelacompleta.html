@@ -5,9 +5,80 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tabela</title>
 </head>
+
+<style>
+     body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    table{
+        border-collapse: collapse;
+        width: 800px;
+    }
+    td {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: left;
+
+    }
+     th {
+        border: 1px solid black;
+        padding: 10px;
+        text-align: center;
+    }
+</style>
 <body>
     <Table>
-        <th></th>
+        <tr>
+            <th>Grupos</th>
+            <th>Nomes</th>
+            <th colspan="3">Filmes</th>
+        </tr>
+
+        <tr>
+            <th rowspan="3">Mulheres</th>
+            <td>Aurora Elena </td>
+            <td>Malévola</td>
+            <td>Valente</td>
+            <td>Enrolados</td>
+        
+        </tr>
+
+        <tr>
+            <td>Maria Manuella</td>
+            <td>It, a coisa</td>
+            <td>Karatê Kid</td>
+            <td>O Diário da Princesa</td>
+        </tr>
+
+        <tr>
+            <td>Bela Santos</td>
+            <td>Para Todos os Garotos</td>
+            <td>Romeu e Julieta</td>
+            <td>Crepúsculo</td>
+        </tr>
+        
+        <tr>
+            <th rowspan="3">Homens</th>
+            <td>Miguel Alencar</td>
+            <td>Harry Potter</td>
+            <td>Olhos Famintos</td>
+            <td>Rambo</td>
+        </tr>
+
+        <tr>
+            <td>Rodolfo Fontes</td>
+            <td>Todo Mundo em Pânico</td>
+            <td>Rio</td>
+            <Td>Velozes e Furiosos</Td>
+        </tr>
+
+        <tr>
+            <td>João Henrique</td>
+            <td>Hotel Transilvânia</td>
+            <td>A Era do Gelo</td>
+            <td>As Crônica de Nárnia</td>
+        </tr>
     </Table>
 </body>
 </html>
