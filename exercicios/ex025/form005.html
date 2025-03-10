@@ -7,7 +7,16 @@
 </head>
 <body>
 
-    <form action="" method="get">
+    <form action="" method="get" autocomplete="on">
+        <fieldset>
+            <legend>Sexo</legend>
+
+            <input type="radio" name="sexo" id="isfem" value="F">
+            <label for="isfem">Femenino</label>
+
+            <input type="radio" name="sexo" id="ismas" value="M">
+            <label for="ismas">Masculino</label>
+        </fieldset>
        
         <fieldset>
             <legend>Esportes favoritos</legend>
@@ -18,9 +27,6 @@
             <input type="checkbox" name="volei" id="ivolei"> <label for="ivolei">Vôlei</label> <br>
         </fieldset>
 
-
-
-        
         <p>
             <input type="submit" value="Enviar">
             <input type="submit" value="Limpar">
